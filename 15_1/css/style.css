@@ -1,0 +1,38 @@
+.btn {
+    background-color: green;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn_text {
+    margin: 5px 10px;
+    padding: 10px 15px;
+    border-radius: 1px;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: white;
+}
+
+#btn_icon1 {
+    margin:15px 150px;
+    /*padding: 10px 15px;*/
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    display: block;
+}
+
+#btn_icon2 {
+    margin: 15px 150px;
+    /*padding: 10px 15px;*/
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    display: none;
+}

@@ -1,0 +1,40 @@
+.chat {
+    width: 500px;
+    margin: 15px auto;
+    padding: 20px;
+  }
+
+.chat_output {
+    margin: 20px 0;
+    border: 3px solid rgb(154, 189, 197);
+    padding: 10px;
+    height: 150px;
+    overflow-y: scroll;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .chat_output .recieved {
+    border: 3px solid rgb(78, 226, 135);
+    align-self: flex-start;
+  }
+  .chat_output .sent {
+    border: 3px solid rgb(167, 78, 226);
+    align-self: flex-end;
+  }
+
+  .button {
+    padding: 7px 10px;
+    color: #000;
+    background: rgb(154, 189, 197);
+    border: none;
+    cursor: pointer;
+  }
+
+  .chat_input input {
+    border: 3px solid rgb(154, 189, 197);
+    padding: 5px 10px;
+    width: 250px;
+  }
